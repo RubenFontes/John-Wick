@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(0.8vw + 1.2vh);
+    font-weight: 300;
+}
+body{
+    color: whiteSmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    background-position: center;
+
+}
+main{
+    height: 85vh;
+    background-image: url("assets/bannerf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 115vh;
+}
+header{
+    position: relative;
+    display: flex;
+    height: 15vh;
+    font-weight: 400;
+    font-size: calc(16px + 0.2vw);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    list-style: none;
+    gap: .8rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(199, 212, 223);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(223, 199, 199);
+}
+h1{
+    background: -webkit-linear-gradient(45deg,rgb(0, 102, 102), pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    justify-content: left;
+    font-size: calc(8vw + 10vh);
+    line-height: 80vh;    font-family: 'Bangers', cursive;
+
+}
+h2, h3{
+    padding-top: 50px;
+    font-weight: 500;
+}
+h3{
+    font-weight: 400;
+}
+.bio{
+    height: 100vh;
+    background-position: top;
+    color: rgb(36, 36, 36);
+    background-image: linear-gradient(to right, rgb(185, 193, 199), rgb(247, 239, 236));
+}
+.pbio{
+    padding-top: 50px;
+    color: black;
+  }
+p{
+    padding-top: 15px;
+    text-align: justify;
+}
+  .sobre{
+      height: auto;
+      padding-bottom: 50px;
+      text-align: justify !important;
+      background-color: #171a1d;
+
+  }
+  .sobre2{
+    text-align: center !important;
+  }
+  article{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+  .colsobre{
+      background-color: #1f2124;
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      gap: 1vw;
+      height: 50vh;
+  }
+  .articleQuali{
+      background-color: #232629;
+      margin: 0;
+  }
+  .articleCarac, .articleQuali, .articleHabili{
+      width: 30vw;
+      text-align: center !important;
+  }
+  .pcaracteristicas, .pqualidades, .phabilidades{
+      text-align: center;
+  }
+.pagSobre{
+    padding-right: 50px;
+    padding-left: 50px;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #1d1d1d;
+    color: rgb(221, 221, 221);
+}
+#gif{
+    padding-top: 50px;
+    width: 50vw;
+    height: auto;
+}
+#descricao{
+    text-align: center !important;
+    padding-top: 35px;
+}
+.sitesFav{
+    padding-right: 50px;
+    padding-left: 50px;
+    color: black;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+#btnVoltar{
+    padding-top: 50px;
+}
+  footer{
+    background-color: black;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+  }
