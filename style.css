@@ -50,7 +50,7 @@ nav{
 }
 a{
     text-decoration: none;
-    color: rgb(203, 220, 233);
+    color: rgb(194, 208, 214);
 }
 a:hover{
     text-decoration: none;
@@ -78,12 +78,12 @@ h3{
 }
 .sectionBio{
     height: 100vh;
-    color: rgb(17, 17, 17);
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-image:linear-gradient(to bottom, rgba(28, 30, 31, 0.5),rgb(28, 30, 31));
 }
 .pbio{
     padding-top: 35px;
-    color: rgb(17, 17, 17);
+    color: rgb(243, 243, 243);
   }
 p{
     padding-left: 7vw;
@@ -95,7 +95,7 @@ p{
     height: auto;
     padding-bottom: 50px;
     text-align: justify !important;
-    background-color: black;
+    background-color: black
 }
 .h2Personagem{
     text-align: center !important;
@@ -109,14 +109,13 @@ p{
 .articleQuali{
     text-align: center !important;
     width: 50%;
-    background-color: whitesmoke;
-    color: black;
+    background-color: rgb(27, 27, 27);
 }
 .articleHabili{
     text-align: center !important;
     width: 50%;
-    color: black;
-    background-color: lightgray;
+    color: whitesmoke;
+    background-color: rgb(28, 30, 31);
 }
 .pcaracteristicas{
     text-align: justify;
@@ -124,7 +123,7 @@ p{
  .pqualidades, .phabilidades{
     text-align: center !important;
     flex-basis: 50%;
-    color: black;
+    color: whitesmoke;
 }
 /*página sobre*/
 .sectionSobre{
