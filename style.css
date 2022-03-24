@@ -79,12 +79,12 @@ h3{
 }
 .sectionBio{
     height: 100vh;
-    color: rgb(36, 36, 36);
-    background-image: linear-gradient(to right, rgb(185, 193, 199), rgb(247, 239, 236));
+    color: rgb(17, 17, 17);
+    background-color: whitesmoke;
 }
 .pbio{
     padding-top: 35px;
-    color: black;
+    color: rgb(17, 17, 17);
   }
 p{
     padding-left: 7vw;
@@ -96,13 +96,13 @@ p{
     height: auto;
     padding-bottom: 50px;
     text-align: justify !important;
-    background-color: #171a1d;
+    background-color: black;
 }
-.pPersonagem{
+.h2Personagem{
     text-align: center !important;
 }
 .container{
-    background-color: #1d1f22;
+    background-color: #caa18e;
     display: flex;
     flex-direction: row;
     height: 50vh;
@@ -111,15 +111,22 @@ p{
 .articleQuali{
     text-align: center !important;
     width: 50%;
-    background-color: #232629;
+    background-color: #052128;
 }
 .articleHabili{
     text-align: center !important;
     width: 50%;
+    color: black;
+}
+.pcaracteristicas{
+    text-align: justify;
 }
  .pqualidades, .phabilidades{
     text-align: center !important;
     flex-basis: 50%;
+}
+.phabilidades{
+    color: black;
 }
 /*página sobre*/
 .sectionSobre{
@@ -131,7 +138,7 @@ p{
 }
 #gif{
     padding-top: 50px;
-    width: 400px;
+    width: calc(25vw + 25vh);
     height: auto;
 }
 #descricao{
