@@ -24,7 +24,6 @@ body{
     text-align: center;
     background-color: black;
     background-position: center;
-
 }
 main{
     height: 85vh;
@@ -102,21 +101,22 @@ p{
     text-align: center !important;
 }
 .container{
-    background-color: #caa18e;
     display: flex;
     flex-direction: row;
-    height: 50vh;
+    height: 40vh;
     width: auto;
 }
 .articleQuali{
     text-align: center !important;
     width: 50%;
-    background-color: #052128;
+    background-color: whitesmoke;
+    color: black;
 }
 .articleHabili{
     text-align: center !important;
     width: 50%;
     color: black;
+    background-color: lightgray;
 }
 .pcaracteristicas{
     text-align: justify;
@@ -124,8 +124,6 @@ p{
  .pqualidades, .phabilidades{
     text-align: center !important;
     flex-basis: 50%;
-}
-.phabilidades{
     color: black;
 }
 /*página sobre*/
