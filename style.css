@@ -79,7 +79,7 @@ h3{
 .sectionBio{
     height: 100vh;
     color: black;
-    background-color:rgb(235, 229, 226);
+    background-color:rgb(235, 229, 226, 0.9);
 }
 .pbio{
     padding-top: 35px;
@@ -109,7 +109,7 @@ p{
 .articleQuali{
     text-align: center !important;
     width: 50%;
-    background-color: rgb(235, 229, 226);
+    background-color: rgb(235, 229, 226,0.9);
     color: black;
 }
 .articleHabili{
