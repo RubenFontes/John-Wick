@@ -73,6 +73,10 @@ h2, h3{
 h3{
     font-weight: 400;
 }
+#idObj, #idCarac{
+    padding-top: 25px;
+    padding-left: 7vw;
+}
 .sectionBio{
     height: 100vh;
     color: rgb(36, 36, 36);
@@ -83,6 +87,8 @@ h3{
     color: black;
   }
 p{
+    padding-left: 7vw;
+    padding-right: 7vw;
     padding-top: 15px;
     text-align: justify;
 }
@@ -95,27 +101,25 @@ p{
 .pPersonagem{
     text-align: center !important;
 }
-  article{
-    padding-left: 7vw;
-    padding-right: 7vw;
-}
 .container{
     background-color: #1d1f22;
     display: flex;
     flex-direction: row;
+    height: 50vh;
     width: auto;
-    height: 55vh;
 }
 .articleQuali{
-    background-color: #232629;
-    margin: 0;
-}
-.articleCarac, .articleQuali, .articleHabili{
-    width: 33%;
     text-align: center !important;
+    width: 50%;
+    background-color: #232629;
 }
-.pcaracteristicas, .pqualidades, .phabilidades{
-    text-align: center;
+.articleHabili{
+    text-align: center !important;
+    width: 50%;
+}
+ .pqualidades, .phabilidades{
+    text-align: center !important;
+    flex-basis: 50%;
 }
 /*página sobre*/
 .sectionSobre{
@@ -132,6 +136,7 @@ p{
 }
 #descricao{
     text-align: center !important;
+    line-height: calc(1vw + 2vh);
     padding-top: 35px;
 }
 .sitesFav{
