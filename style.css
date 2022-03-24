@@ -121,7 +121,7 @@ svg:hover{
 p{
     padding-left: 7vw;
     padding-right: 7vw;
-    padding-top: 15px;
+    padding-top: 25px;
     text-align: justify;
 }
 .h2Personagem{
@@ -163,7 +163,6 @@ hr{
     border-color: rgb(40, 180, 199);
 }
 .imgDog{
-    border: 2px solid rgba(255, 255, 0, 0.479);
     width: 85%;
     height: auto;
     margin-top: 35px;
@@ -172,9 +171,6 @@ hr{
     height: auto;
     padding-bottom: 50px;
     background-color: #070707;
-}
-#pGosta{
-    margin-top: 35px;
 }
 .secSites{
     background-color: #000e0e;
