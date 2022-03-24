@@ -109,7 +109,6 @@ svg:hover{
 .sectionBio{
     height: 100vh;
     background-color: #000e0e;
-    background-image: linear-gradient(to top, #000e0e, #070707);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -160,40 +159,29 @@ p{
     flex-basis: 50%;
     color: whitesmoke;
 }
-/*página sobre*/
-.sectionSobre{
-    padding-right: 50px;
-    padding-left: 50px;
-    height: auto;
-    padding-bottom: 50px;
-    color: whitesmoke;
-}
-#titleSobre{
-    font-family: Arial, Helvetica, sans-serif;
-}
-#gif{
-    padding-top: 50px;
-    width: calc(25vw + 25vh);
-    height: auto;
-}
-#descricao{
-    text-align: center !important;
-    line-height: calc(1vw + 2vh);
-    padding-top: 35px;
-}
-.sitesFav{
-    padding-right: 50px;
-    padding-left: 50px;
-    color: black;
-    height: auto;
-    padding-bottom: 50px;
-    background-color: #f2f2f2;
-}
-#btnVoltar{
-    padding-top: 50px;
-}
 hr{
     border-color: rgb(40, 180, 199);
+}
+.imgDog{
+    border: 2px solid rgba(255, 255, 0, 0.479);
+    width: 85%;
+    height: auto;
+    margin-top: 35px;
+}
+.secGosta{
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #070707;
+}
+#pGosta{
+    margin-top: 35px;
+}
+.secSites{
+    background-color: #000e0e;
+}
+.pSites{
+    text-align: center;
+    margin-bottom: 35px;
 }
 footer{
     background-color: #070707;
