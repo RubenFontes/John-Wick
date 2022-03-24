@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+/*Geral*/
 *{
     margin: 0;
     top: 0%;
@@ -10,9 +11,9 @@
     left: 0%;
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*scroll suave*/
     font-family: 'Roboto', sans-serif;
-    font-size: calc(0.8vw + 1.2vh);
+    font-size: calc(0.7vw + 1.5vh); 
     font-weight: 300;
 }
 body{
@@ -41,23 +42,23 @@ header{
 }
 nav{
     display: flex;
+    position: absolute;
     justify-content: center;
     text-align: center;
     align-items: center;
-    position: absolute;
     list-style: none;
     gap: .8rem;
 }
 a{
     text-decoration: none;
-    color: rgb(199, 212, 223);
+    color: rgb(203, 220, 233);
 }
 a:hover{
     text-decoration: none;
     color: rgb(223, 199, 199);
 }
 h1{
-    background: -webkit-linear-gradient(45deg,rgb(0, 102, 102), pink);
+    background: -webkit-linear-gradient(45deg,rgba(0, 92, 92, 0.8), pink);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 100;
@@ -68,69 +69,66 @@ h1{
 }
 h2, h3{
     padding-top: 50px;
-    font-weight: 500;
 }
 h3{
     font-weight: 400;
 }
-.bio{
+.sectionBio{
     height: 100vh;
-    background-position: top;
     color: rgb(36, 36, 36);
     background-image: linear-gradient(to right, rgb(185, 193, 199), rgb(247, 239, 236));
 }
 .pbio{
-    padding-top: 50px;
+    padding-top: 35px;
     color: black;
   }
 p{
     padding-top: 15px;
     text-align: justify;
 }
-  .sobre{
-      height: auto;
-      padding-bottom: 50px;
-      text-align: justify !important;
-      background-color: #171a1d;
-
-  }
-  .sobre2{
-    text-align: center !important;
-  }
-  article{
-    padding-left: 5vw;
-    padding-right: 5vw;
+.sectionPersonagem{
+    height: auto;
+    padding-bottom: 50px;
+    text-align: justify !important;
+    background-color: #171a1d;
 }
-  .colsobre{
-      background-color: #1f2124;
-      display: flex;
-      flex-direction: row;
-      width: auto;
-      gap: 1vw;
-      height: 50vh;
-  }
-  .articleQuali{
-      background-color: #232629;
-      margin: 0;
-  }
-  .articleCarac, .articleQuali, .articleHabili{
-      width: 30vw;
-      text-align: center !important;
-  }
-  .pcaracteristicas, .pqualidades, .phabilidades{
-      text-align: center;
-  }
-.pagSobre{
+.pPersonagem{
+    text-align: center !important;
+}
+  article{
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+.container{
+    background-color: #1d1f22;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 1vw;
+    height: 55vh;
+}
+.articleQuali{
+    background-color: #232629;
+    margin: 0;
+}
+.articleCarac, .articleQuali, .articleHabili{
+    width: 30vw;
+    text-align: center !important;
+}
+.pcaracteristicas, .pqualidades, .phabilidades{
+    text-align: center;
+}
+/*página sobre*/
+.sectionSobre{
     padding-right: 50px;
     padding-left: 50px;
     height: auto;
     padding-bottom: 50px;
-    background-color: #1d1d1d;
-    color: rgb(221, 221, 221);
+    color: whitesmoke;
 }
 #gif{
     padding-top: 50px;
-    width: 50vw;
+    width: 30rem;
     height: auto;
 }
 #descricao{
@@ -148,11 +146,11 @@ p{
 #btnVoltar{
     padding-top: 50px;
 }
-  footer{
+footer{
     background-color: black;
     display: flex;
     margin-top: auto;
     justify-content: center;
     align-items: center;
     height: 15vh;
-  }
+}
