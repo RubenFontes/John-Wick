@@ -73,6 +73,7 @@ h2, h3{
     padding-top: 50px;
 }
 h2{
+    letter-spacing: .1rem;
     font-size: calc(1.8vw + 1.5vh); 
     /*font-family: 'Bangers', cursive;*/
     font-family: "compacta-bold-italic-bt";
@@ -108,7 +109,7 @@ svg:hover{
 .sectionBio{
     height: 100vh;
     background-color: #000e0e;
-    background-image: radial-gradient(circle at center, #000e0e, #070707);
+    background-image: linear-gradient(to top, #000e0e, #070707);
     background-position: center;
     background-repeat: no-repeat;
 }
