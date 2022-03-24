@@ -13,7 +13,7 @@
 html{
     scroll-behavior: smooth; /*scroll suave*/
     font-family: 'Roboto', sans-serif;
-    font-size: calc(0.7vw + 1.5vh); 
+    font-size: calc(0.8vw + 1.3vh); 
     font-weight: 300;
 }
 body{
@@ -63,7 +63,7 @@ h1{
     -webkit-text-fill-color: transparent;
     font-weight: 100;
     justify-content: left;
-    font-size: calc(8vw + 10vh);
+    font-size: calc(8vw + 8vh);
     line-height: 80vh;    font-family: 'Bangers', cursive;
 
 }
@@ -104,7 +104,6 @@ p{
     display: flex;
     flex-direction: row;
     width: auto;
-    gap: 1vw;
     height: 55vh;
 }
 .articleQuali{
@@ -112,7 +111,7 @@ p{
     margin: 0;
 }
 .articleCarac, .articleQuali, .articleHabili{
-    width: 30vw;
+    width: 33%;
     text-align: center !important;
 }
 .pcaracteristicas, .pqualidades, .phabilidades{
@@ -128,7 +127,7 @@ p{
 }
 #gif{
     padding-top: 50px;
-    width: 30rem;
+    width: 400px;
     height: auto;
 }
 #descricao{
