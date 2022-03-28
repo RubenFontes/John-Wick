@@ -51,7 +51,14 @@ nav{
     text-align: center;
     align-items: center;
     list-style: none;
-    gap: .8rem;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: .8rem;
+}
+nav ul{
+    padding-left: 0; /*pra tirar aql espacinho chato da lista*/
 }
 a{
     text-decoration: none;
@@ -79,14 +86,13 @@ h2{
     font-family: "compacta-bold-italic-bt";
 }
 h3{
-    font-weight: 500;
-    color: #dde4eb;
+    font-weight: 700;
 }
 svg{
     opacity: 0.4;
     position: absolute;
     color: yellow;
-    top: 80%;
+    top: 70%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -143,21 +149,17 @@ p{
     text-align: center !important;
     width: 50%;
     background-color: #000e0e;
-    color: black;
 }
 .articleDefeitos{
     text-align: center !important;
     width: 50%;
-    color: whitesmoke;
     background-color: #000e0e;
 }
 .pcaracteristicas, .phabilidades{
     text-align: justify;
 }
  .pqualidades, .pdefeitos{
-    text-align: center !important;
-    flex-basis: 50%;
-    color: whitesmoke;
+    text-align: center;
 }
 hr{
     border-color: rgb(40, 180, 199);
@@ -175,9 +177,11 @@ hr{
 .secSites{
     background-color: #000e0e;
 }
-.pSites{
-    text-align: center;
+.ulSites{
+    margin-top: 25px;
     margin-bottom: 35px;
+    justify-content: center;
+    padding-left: 0px;
 }
 footer{
     background-color: #070707;
