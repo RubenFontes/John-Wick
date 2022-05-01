@@ -28,10 +28,9 @@ body:not(h1){
     justify-content: center;
     text-align: center;
     background-color: black;
-    background-position: center;
 }
 main{
-    height: 85vh;
+    min-height: 85vh;
     background-image: url("assets/bannerf.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -42,7 +41,7 @@ header{
     display: flex;
     height: 15vh;
     font-weight: 400;
-    font-size: calc(16px + 0.2vw);
+    font-size: calc(12px + 0.4vw);
 }
 nav{
     display: flex;
@@ -62,7 +61,8 @@ nav ul{
 }
 a{
     text-decoration: none;
-    color: rgb(179, 179, 179);
+    font-weight: 300;
+    color: #ffffffc0;
 }
 a:hover{
     text-decoration: none;
@@ -72,7 +72,7 @@ h1{
     color: #008b8b90;
     font-weight: 100;
     justify-content: left;
-    font-size: calc(8vw + 8vh);
+    font-size: calc(10vw + 6vh);
     line-height: 80vh;    
     font-family: "compacta-bold-italic-bt";
 }
@@ -95,26 +95,25 @@ svg{
     top: 70%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    position: absolute;
+    animation: image 0.6s alternate infinite;
 }
 svg:hover{
     color: #008b8b90;
+}
+@keyframes image {
+    from {
+        top: 75%;
+      }
 }
 #idObj, #idCarac, #idHabili{
     padding-top: 25px;
     padding-left: 7vw;
 }
-.slider {
-	overflow-y: hidden;
-	max-height: 500px; /* approximate max height */
-
-	transition-property: all;
-	transition-duration: .5s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
 .sectionBio{
-    height: 100vh;
-    background-color: #000e0e;
+    min-height: 100vh;
+    background-color: #000f0f;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -137,7 +136,7 @@ p{
     height: auto;
     padding-bottom: 50px;
     text-align: justify !important;
-    background-color: #070707;
+    background-color: #000f0f;
 }
 .container{
     display: flex;
@@ -148,12 +147,12 @@ p{
 .articleQuali{
     text-align: center !important;
     width: 50%;
-    background-color: #000e0e;
+    background-color: #000f0f;
 }
 .articleDefeitos{
     text-align: center !important;
     width: 50%;
-    background-color: #000e0e;
+    background-color: #000f0f;
 }
 .pcaracteristicas, .phabilidades{
     text-align: justify;
@@ -172,10 +171,10 @@ hr{
 .secGosta{
     height: auto;
     padding-bottom: 50px;
-    background-color: #070707;
+    background-color: #000f0f;
 }
 .secSites{
-    background-color: #000e0e;
+    background-color: #000f0f;
 }
 .ulSites{
     margin-top: 25px;
@@ -183,8 +182,11 @@ hr{
     justify-content: center;
     padding-left: 0px;
 }
+.ulSites li {
+    padding: .4rem;
+}
 footer{
-    background-color: #070707;
+    background-color: black;
     display: flex;
     margin-top: auto;
     justify-content: center;
