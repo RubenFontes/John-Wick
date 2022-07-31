@@ -18,16 +18,19 @@
 html{
     scroll-behavior: smooth; /*scroll suave*/
     font-family: 'Roboto', sans-serif;
-    font-size: calc(0.8vw + 1.3vh); 
+    font-size: calc(0.5vw + 1.35vh); 
     font-weight: 300;
 }
-body:not(h1){
+body:not(h3){
     color: whiteSmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: black;
+}
+.wrapper p, h3{
+    margin: 0 12% 0 12%;
 }
 main{
     min-height: 85vh;
@@ -37,6 +40,7 @@ main{
     background-size: 115vh;
 }
 header{
+    background-color: black;
     position: relative;
     display: flex;
     height: 15vh;
@@ -109,16 +113,20 @@ svg:hover{
 }
 #idObj, #idCarac, #idHabili{
     padding-top: 25px;
-    padding-left: 7vw;
+    text-align: left;
+    padding-left: 19%;
+    margin-left: 0;
 }
 .sectionBio{
-    min-height: 100vh;
-    background-color: #000f0f;
+    min-height: auto;
+    background-color: whitesmoke;
+    color: black;
     background-position: center;
     background-repeat: no-repeat;
 }
 .pbio{
     padding-top: 35px;
+    padding-bottom: 75px;
   }
 .pbio::first-letter{
     font-size: 2rem;
@@ -130,66 +138,80 @@ p{
     text-align: justify;
 }
 .h2Personagem{
-    text-align: center !important;
+    text-align: center;
 }
 .sectionPersonagem{
     height: auto;
-    padding-bottom: 50px;
-    text-align: justify !important;
-    background-color: #000f0f;
+    padding-bottom: 75px;
+    background-color: #101310;
 }
 .container{
     display: flex;
     flex-direction: row;
-    height: 40vh;
+    height: auto;
     width: auto;
 }
 .articleQuali{
-    text-align: center !important;
     width: 50%;
-    background-color: #000f0f;
+    background-color: #122728;
+    padding-bottom: 75px;
 }
 .articleDefeitos{
-    text-align: center !important;
     width: 50%;
-    background-color: #000f0f;
+    background-color: #122728;
+    padding-bottom: 75px;
 }
 .pcaracteristicas, .phabilidades{
     text-align: justify;
 }
  .pqualidades, .pdefeitos{
     text-align: center;
+    background-color: #122728;
 }
 hr{
     border-color: rgb(40, 180, 199);
 }
 .imgDog{
-    width: 85%;
+    width: 62%;
     height: auto;
     margin-top: 35px;
 }
 .secGosta{
     height: auto;
-    padding-bottom: 50px;
-    background-color: #000f0f;
+    padding-bottom: 75px;
+    background-color: #101310;
 }
 .secSites{
-    background-color: #000f0f;
+    background-color: #122728;
 }
 .ulSites{
     margin-top: 25px;
-    margin-bottom: 35px;
+    padding-bottom: 75px;
     justify-content: center;
     padding-left: 0px;
 }
 .ulSites li {
     padding: .4rem;
+    list-style-type: none;
 }
 footer{
     background-color: black;
     display: flex;
     margin-top: auto;
     justify-content: center;
+    font-size: .8rem;
     align-items: center;
-    height: 15vh;
+    height: 12vh;
+}
+@media (max-width: 600px)
+{
+    .wrapper p{
+        margin: 0 0 0 0;
+    }
+    #idObj, #idCarac, #idHabili{
+        padding-left: 7%;
+    }
+    .imgDog{
+        width: 85%;
+    }
 }
