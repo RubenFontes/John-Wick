@@ -1,4 +1,4 @@
 # John-Wick
+<p>Site de página única sobre o personagem John Wick. Feito com html, css e js vanilla.<p>
 <p>Trabalho da disciplina de internet II (UFPB).<p>
-<p>One-page sobre o personagem John Wick, feito com html, css e js vanilla.<p>
-<h4> Access: https://rubenfontes.github.io/john-wick/</h4>
+<strong><a href="https://rubenfontes.github.io/john-wick">Link</a></strong>
