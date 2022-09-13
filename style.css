@@ -21,6 +21,9 @@ html{
     font-size: calc(0.5vw + 1.35vh); 
     font-weight: 300;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
     color: whiteSmoke;
     display: flex;
